@@ -1,7 +1,7 @@
 <?php
 // Crear usuario en Wordpress
 function wpb_admin_account(){
-    $user = 'iberacustica';
+    $user = 'nombre_usuario';
     $pass = 'w3V#553RK7Ue@P';
     $email = 'a.perez@iberacustica.com';
     if ( !username_exists( $user )  && !email_exists( $email ) ) {
